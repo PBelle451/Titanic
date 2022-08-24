@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<style>
+body{
+    background-image: url("RMS_Titanic_3.jpg");
+    background-color: gray;
+    background-position: center;
+    background-size: auto;
+}
+.topnav {
+background-color: #333;
+overflow: hidden;
+}
+
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+background-color: aqua;
+color: white;
+}
+</style>
+<body>
+    <header>
+        Cadastro
+        <div class="topnav">
+            <a class="active" href="Cadastro.html">Cadastro</a>
+            <a href="Tickets.html">Tickets</a>
+            <a href="Compra.html">Compra</a>
+            <a href="Titanic.html">Sobre</a>
+    </header>
+    <h1>
+        <p>Por favor, faça o cadastro para poder comprar seu pacote: </p>
+        <hr>
+        <form>
+            <label for="nome">Nome:</label><br>
+            <input type="text" placeholder="Insira o nome: " name="nome" required><br>
+            <label for="e-mail">E-mail:</label><br>
+            <input type="email" placeholder="Insira o E-mail: " name="e-mail"><br>
+            <label for="cpf">CPF:</label><br>
+            <input type="number" placeholder="Insira o CPF: " name="cpf"><br>
+            <label for="endereco">Endereço:</label><br>
+            <input type="text" placeholder="Insira o Endereço: " name="endereco"><br>
+            <label for="telefone">Telefone:</label><br>
+            <input type="number" placeholder="Insira o telefone: " name="telefone"><br>
+            <label for="sexo">Sexo:</label><br>
+            <input type="text" placeholder="Insira o sexo: " name="sexo"><br>
+            <label for="idade">Idade:</label><br>
+            <input type="number" placeholder="Insira a idade: " name="idade"><br>
+            <label for="Senha">Senha:</label><br>
+            <input type="password" placeholder="Insira a sua senha: " name="senha"><br>
+        </form>
+    </h1>
+    
+</body>
+</html>

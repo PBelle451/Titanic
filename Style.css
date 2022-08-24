@@ -1,3 +1,5 @@
 header {font-size: 150px; font-style: italic; color:black; text-align: center;}
 h1 {font-size: 50px; font-family: 'Courier New', Courier, monospace; color: white; text-align: center; padding:2,5px;background-color:black;}
+h2 {font-size: 50px; font-family: 'Courier New', Courier, monospace; color: white; text-align: center; padding:2,5px;background-color:black;}
+h3 {font-size: 50px; font-family: 'Courier New', Courier, monospace; color: white; text-align: center; padding:2,5px;background-color:black;}
 p {font-size: 25px; font-family: 'Courier New', Courier, monospace; color: white; text-align: center; padding:2,5px;background-color:black;}
